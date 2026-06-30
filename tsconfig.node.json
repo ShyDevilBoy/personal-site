@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "composite": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": false,
+    "emitDeclarationOnly": true,
+    "outDir": "./node_modules/.tmp/tsnode",
+    "types": ["node"]
+  },
+  "include": ["vite.config.ts", "uno.config.ts"]
+}
